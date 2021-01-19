@@ -1,5 +1,5 @@
-import { livefloodincidentsPopup } from './Popups'
-import { livefloodincidentsStyle } from './Styles'
+import { livefloodingincidentsPopup } from './Popups'
+import { livefloodingincidentsStyle } from './Styles'
 
 const Configuration = {
     Map: {
