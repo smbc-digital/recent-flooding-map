@@ -46,7 +46,7 @@ const Configuration = {
             layerOptions: {
                 onEachFeature: livefloodingincidentsPopup,
                 maxZoom: 2,
-                style: livefloodingincidentsStyle,
+                //style: livefloodingincidentsStyle,
                 pointToLayer: (feature, latlng) => {
                     return Leaflet.circleMarker(latlng)
                 }
