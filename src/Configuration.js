@@ -53,7 +53,7 @@ const Configuration = {
             visibleByDefault: true
         },
 
-    ],
+    ]
     StaticData: 
     [
         {
