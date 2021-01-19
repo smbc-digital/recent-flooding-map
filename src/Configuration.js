@@ -51,9 +51,10 @@ const Configuration = {
             },
             displayOverlay: false,
             visibleByDefault: true
-        },
+        }
 
-    ]
+    ],
+
     StaticData: 
     [
         {
