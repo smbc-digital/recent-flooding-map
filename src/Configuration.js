@@ -1,6 +1,6 @@
 import Leaflet from 'leaflet'
 import { livefloodingincidentsPopup } from './Popups'
-import { livefloodingincidentsStyle } from './Styles'
+//import { livefloodingincidentsStyle } from './Styles'
 
 const Configuration = {
     Map: {
