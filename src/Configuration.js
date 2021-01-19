@@ -50,7 +50,7 @@ const Configuration = {
                 pointToLayer: (feature, latlng) => {
                     return Leaflet.circleMarker(latlng)
             },
-            displayOverlay: false,
+            displayOverlay: true,
             visibleByDefault: true
         }
         }
