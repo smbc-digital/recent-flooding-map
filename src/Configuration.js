@@ -1,6 +1,6 @@
 import Leaflet from 'leaflet'
 import { livefloodingincidentsPopup } from './Popups'
-//import { livefloodingincidentsStyle } from './Styles'
+import { livefloodingincidentsStyle } from './Styles'
 
 const Configuration = {
     Map: {
@@ -42,11 +42,11 @@ const Configuration = {
         },
         {
             key: 'Flooding Incidents',
-            url: 'https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=flooding:vw_live_incidents&outputFormat=application/json&bbox={0},EPSG:4326&srsName=EPSG:4326',
+            url: 'https://spatial.stockport.gov.uk/geoserver/wfs?service=WFS&version=1.1.0&request=GetFeature&typeName=flooding:vw_flood_incidents&outputFormat=application/json&bbox={0},EPSG:4326&srsName=EPSG:4326',
             layerOptions: {
                 onEachFeature: livefloodingincidentsPopup,
                 maxZoom: 2,
-                //style: livefloodingincidentsStyle,
+                style: livefloodingincidentsStyle,
                 pointToLayer: (feature, latlng) => {
                     return Leaflet.circleMarker(latlng)
                 }
