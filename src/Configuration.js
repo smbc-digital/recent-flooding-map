@@ -49,10 +49,10 @@ const Configuration = {
                 style: livefloodingincidentsStyle,
                 pointToLayer: (feature, latlng) => {
                     return Leaflet.circleMarker(latlng)
-            },
+                }
+            },          
             displayOverlay: true,
             visibleByDefault: true
-        }
         }
 
     ],
